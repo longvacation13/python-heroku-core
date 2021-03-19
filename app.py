@@ -7,7 +7,7 @@ import numpy as np
 
 @app.route('/') 
 def hello_world(): 
- return 'Hello World!' 
+ return 'Hello Python Flask' 
  
 if __name__ == '__main__': 
  app.run() 
