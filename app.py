@@ -13,7 +13,7 @@ def hello_world():
 #  plt.figure(figsize=(10,5))
 #  plt.scatter(df.index, df['day_ord_cnt'])
 #  plt.savefig('result\graph\savefig_default.png')
- return "Hello World"
+ return "Hello Python!"
  
 if __name__ == '__main__': 
  app.run() 
