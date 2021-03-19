@@ -59,7 +59,6 @@ parso==0.7.1
 pickleshare==0.7.5
 prompt-toolkit==3.0.6
 proto-plus==1.13.0
-protobuf==3.15.1
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycparser==2.20
@@ -68,6 +67,7 @@ pylint==2.6.0
 pyparsing==2.4.7
 python-dateutil==2.8.1
 pytz==2020.4
+pywin32==228
 pywinpty==0.5.7
 PyYAML==5.4.1
 pyzmq==19.0.2
@@ -80,7 +80,6 @@ six==1.15.0
 sqlparse==0.4.1
 tensorboard==2.4.1
 tensorboard-plugin-wit==1.8.0
-tensorflow==2.4.1
 tensorflow-estimator==2.4.0
 termcolor==1.1.0
 terminado==0.8.3
