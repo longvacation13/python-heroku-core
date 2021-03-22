@@ -8,13 +8,13 @@ import matplotlib.pyplot as plt
 import firebase_admin
 from firebase_admin import credentials
 
-# cred = credentials.Certificate("config\heroku-pro-firebase-adminsdk-na1xm-9e49a017fd.json")
+cred = credentials.Certificate("config\heroku-pro-firebase-adminsdk-na1xm-9e49a017fd.json")
 # firebase_admin.initialize_app(cred)
 
 
 @app.route('/') 
 def hello_world(): 
- #print(str(cred))   
+#  print(str(cred))   
 #  df = pd.read_csv('2020년 ITEM_ID별 실적(센터)_05월.csv')
  # print(df)
 #  plt.figure(figsize=(10,5))
