@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 import numpy as np 
 import pandas as pd
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 @app.route('/') 
 def hello_world(): 
