@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import firebase_admin
 from firebase_admin import credentials
 
-cred = credentials.Certificate("config\heroku-pro-firebase-adminsdk-na1xm-9e49a017fd.json")
+cred = credentials.Certificate("heroku-pro-firebase-adminsdk-na1xm-9e49a017fd.json")
 # firebase_admin.initialize_app(cred)
 
 
