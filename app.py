@@ -9,7 +9,7 @@ import firebase_admin
 from firebase_admin import credentials
 
 cred = credentials.Certificate("heroku-pro-firebase-adminsdk-na1xm-9e49a017fd.json")
-# firebase_admin.initialize_app(cred)
+firebase_admin.initialize_app(cred)
 
 
 @app.route('/') 
